@@ -1,0 +1,16 @@
+.imagem{
+ 
+    position: fixed; 
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 110vw;
+    width: 100vw;          /* ocupa toda a largura da tela */
+    /* height: 100vh;         ocupa toda a altura da tela */
+    object-fit: cover;     /* cobre toda a área sem distorcer */
+    z-index: -1;           /* fica atrás de todo o conteúdo */
+    pointer-events: none;  /* permite clicar em elementos acima */
+    top:-895px;
+      
+}
